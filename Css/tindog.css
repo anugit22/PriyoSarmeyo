@@ -1,0 +1,323 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans', 'Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    text-align: center;
+    
+}
+
+:root { scroll-behavior: smooth; }
+
+#logo {
+   margin: 34px 45px;
+   width: 5%;
+}
+
+#logo img {
+    height: 70px;
+    margin: 10px 15px;
+}
+
+/* Title Section */
+
+#title {
+    background: url("/img/istockphoto-1088991402-612x612.jpg")no-repeat center center/cover;
+    color: #fff;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 30%;
+    padding: 3rem;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 10%;
+    border-radius: 4.8rem;
+   
+
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+
+
+h1 {
+    font-family: "monospace-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-top: 20%;
+    text-shadow: 3px 4px rgb(20, 26, 27);
+}
+
+h2 {
+    font-family: "monospace-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "monospace-Bold";
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(124, 4, 4);
+}
+
+p {
+    color: rgb(251, 255, 0);
+    font-weight: bold;
+    text-shadow: 2px 1px rgb(0, 0, 0);
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 0 0 4.5rem;
+    display: flex;
+   /* position: sticky;
+    top: 0px;*/
+    
+}
+
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: bold;
+    text-shadow: 2px 3px rgb(7, 6, 10);
+    cursor: default;
+
+}
+
+.nav, navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: left;
+    text-shadow: 4px 4px rgb(2, 1, 1);
+    cursor: default;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    color: rgb(233, 236, 6);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+
+.navbar-toggler {
+    background-color: rgb(32, 30, 30);
+}
+
+.navbar-toggler:hover {
+    color: rgb(58, 57, 57);
+}
+
+/*Download button*/
+   
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+
+
+/* Features Section */
+
+#features {
+    padding: 7% 15%;
+    background: url("/img/photo-1514769582441-8e126128af48.avif")no-repeat center center/cover;
+    position: relative;
+    font-family: "ubuntu";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+.feature-box {
+    text-align: center;
+    padding: 4.5%;
+}
+
+.icon {
+    color: rgb(255, 145, 0);
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: rgb(224, 221, 14);
+}
+
+
+/*Testimonial Section*/
+
+#testimonials {
+    text-align: center;
+    background: url("/img/photo-1475656106224-d72c2ab53e8d.avif")no-repeat center center/cover;
+    color: #fff;
+    text-shadow: 2px 3px rgb(20, 26, 27);
+}
+
+
+.testimonial-image {
+    width: 30%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    font-size: 2.5rem;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+#press {
+    background: url("/img/photo-1475656106224-d72c2ab53e8d.avif")no-repeat center center/cover;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+    box-shadow: 4px 8px black;
+    border-radius: 5px;
+}
+
+
+
+/* Pricing Section */
+.card {
+    background-color:   #e2ebe2;
+}
+
+
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+    background: url("/img/photo-1579546929518-9e396f3cc809.avif")no-repeat center center/cover;
+    
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.pricing-text {
+    color: rgb(2, 54, 9);
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(255, 255, 84);
+}
+
+.pricing-heading {
+    color: rgb(104, 3, 70);
+    text-shadow: 2px 2px rgb(255, 255, 255);
+}
+
+.price-cost {
+    color: black;
+    text-shadow: 2px 2px rgb(255, 254, 253);
+
+}
+
+
+.section-heading {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-shadow: 3px 3px rgb(255, 255, 255);
+}
+
+.button-width {
+    width: 100%;
+}
+
+
+/* CTA Section */
+
+#cta {
+    background: url("/img/photo-1548199973-03cce0bbc87b.avif")no-repeat center center/cover;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+   font-family: "monospace-Black";
+   font-size: 3.5rem;
+   line-height: 1.5;
+   color: rgb(229, 255, 82);
+   text-shadow: 2px 2px rgb(0, 0, 0);
+
+}
+
+/* Footer Section */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+    background: url("/img/photo-1501436513145-30f24e19fcc8.avif")no-repeat center center/cover;
+    color: black;
+}
+
+#footer p {
+    color: black;
+    text-shadow: 2px 2px rgb(199, 194, 194);
+}
+
+.social-icon {
+    margin: 20px 10px;
+
+}
+
+@media (max-width:991px) {
+    #title {
+        text-align: center;
+        transition: all 2s ease-in-out;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 35%;
+        transition: all 2s ease-in-out;
+        border-radius: 4rem;
+    }
+
+    #title .container-fluid {
+        padding: 3% 15% 7%;
+        text-align: center;
+        transition: all 2s ease-in-out;
+    }
+
+    .navbar-brand {
+        margin: 0px;
+        transition: all 2s ease-in-out;
+    }
+
+
+    .testimonial-text {
+        font-size: 1.5rem;
+    }
+
+}
+
+
+
+
+
+
+

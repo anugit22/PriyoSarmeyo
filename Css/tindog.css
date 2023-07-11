@@ -19,7 +19,7 @@ body {
 /* Title Section */
 
 #title {
-    background: url("/img/istockphoto-1088991402-612x612.jpg")no-repeat center center/cover;
+    background: url("/priyosarmeyo/img/istockphoto-1088991402-612x612.jpg")no-repeat center center/cover;
     color: #fff;
 }
 
@@ -136,7 +136,7 @@ p {
 
 #features {
     padding: 7% 15%;
-    background: url("/img/photo-1514769582441-8e126128af48.avif")no-repeat center center/cover;
+    background: url("/priyosarmeyo/img/photo-1514769582441-8e126128af48.avif")no-repeat center center/cover;
     position: relative;
     font-family: "ubuntu";
     color: rgb(255, 255, 255);
@@ -163,7 +163,7 @@ p {
 
 #testimonials {
     text-align: center;
-    background: url("/img/photo-1475656106224-d72c2ab53e8d.avif")no-repeat center center/cover;
+    background: url("/priyosarmeyo/img/photo-1475656106224-d72c2ab53e8d.avif")no-repeat center center/cover;
     color: #fff;
     text-shadow: 2px 3px rgb(20, 26, 27);
 }
@@ -185,7 +185,7 @@ p {
 
 
 #press {
-    background: url("/img/photo-1475656106224-d72c2ab53e8d.avif")no-repeat center center/cover;
+    background: url("/priyosarmeyo/img/photo-1475656106224-d72c2ab53e8d.avif")no-repeat center center/cover;
     text-align: center;
     padding-bottom: 3%;
 }
@@ -209,7 +209,7 @@ p {
 #pricing {
     padding: 100px;
     text-align: center;
-    background: url("/img/photo-1579546929518-9e396f3cc809.avif")no-repeat center center/cover;
+    background: url("/priyosarmeyo/img/photo-1579546929518-9e396f3cc809.avif")no-repeat center center/cover;
     
 }
 
@@ -249,7 +249,7 @@ p {
 /* CTA Section */
 
 #cta {
-    background: url("/img/photo-1548199973-03cce0bbc87b.avif")no-repeat center center/cover;
+    background: url("/priyosarmeyo/img/photo-1548199973-03cce0bbc87b.avif")no-repeat center center/cover;
     color: #fff;
     padding: 7% 15%;
     text-align: center;
@@ -269,7 +269,7 @@ p {
 #footer {
     padding: 7% 15%;
     text-align: center;
-    background: url("/img/photo-1501436513145-30f24e19fcc8.avif")no-repeat center center/cover;
+    background: url("/priyosarmeyo/img/photo-1501436513145-30f24e19fcc8.avif")no-repeat center center/cover;
     color: black;
 }
 
